@@ -19,7 +19,7 @@ const Products = [
 ]
   return (
     <div>
-       {Products.map((items,indexedDB) => <Product items={items}/>)}
+       {Products.map((items,index) => <Product key={index} items={items}/>)}
     </div>
   )
 }

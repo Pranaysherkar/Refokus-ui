@@ -36,7 +36,7 @@ function Marquees() {
   ];
   return (
     <div className="py-36">
-      {img.map(item => <Marquee url={item}/>)}
+      {img.map((item,index )=> <Marquee key={index} url={item}/>)}
     </div>
   );
 }
