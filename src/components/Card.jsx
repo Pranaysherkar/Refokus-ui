@@ -1,15 +1,17 @@
 import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
-function Card({ width, start, para,hover }) {
+function Card({ width, start, para, hover, bg }) {
   return (
-    <div className={`${width} h-[60vh] bg-zinc-800 p-5 rounded-xl  flex flex-col justify-between ${hover}`}>
-      <div className={`w-full `}>
-        <div className="w-full flex items-center justify-between">
+    <div className={`${width} h-[60vh] bg-zinc-800 p-5 rounded-xl  flex flex-col justify-between ${bg} duration-150 `}>
+
+      <div className={`w-full ${hover}`}>
+        <div className="w-full flex items-center justify-between ">
           <h3 className="text-sm">one heading</h3>
           <IoIosArrowRoundForward />
         </div>
         <h1 className="text-3xl font-medium mt-5">Lorem, ipsum dolor.</h1>
       </div>
+
       <div className="">
         {start && (
           <>
