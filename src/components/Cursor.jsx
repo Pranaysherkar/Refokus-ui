@@ -14,7 +14,7 @@ function Cursor() {
     },[]);
 
   return (
-    <div className="fixed w-6 h-6 bg-white rounded-full z-10" style={{top:`${cursor.y}px`, left:`${cursor.x}px`,transition:`transform 1s cubic-bezier(0.32, 0, 0.67, 0)`, mixBlendMode:`difference` }}></div>
+    <div className="fixed w-5 h-5 bg-white rounded-full z-10" style={{top:`${cursor.y}px`, left:`${cursor.x}px`,transition:`transform 1s cubic-bezier(0.32, 0, 0.67, 0)`, mixBlendMode:`difference` }}></div>
   )
 }
 

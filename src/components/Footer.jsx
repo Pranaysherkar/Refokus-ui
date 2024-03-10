@@ -14,7 +14,7 @@ function Footer() {
                     {["instagram","twitter (x?)","facebook"].map((items,index)=><a key={index} className='block mt-2  text-slate-400'>{items}</a>)}
                 </div>
                 <div className="basis-1/3">
-                    <h4 className='mb-10  text-zinc-300'>sitemap</h4>
+                    <h4 className='mb-10  text-zinc-300'>Sitemap</h4>
                     {["home","work","careers","contact"].map((items,index)=><a key={index} className='block mt-2  text-slate-400'>{items}</a>)}
                 </div>
                 <div className="basis-1/3">
