@@ -45,7 +45,7 @@ const showImages=(key)=>{
   return (
     <div className='w-full '>
         <div className="relative max-w-[90%] mx-auto text-center">
-           <h1 className='text-[592px] leading-none font-medium select-none'>work</h1>
+           <h1 className='text-[592px] leading-none select-none font-semibold'>work</h1>
         <div className="absolute w-full h-full top-0">
             {images.map((items,index)=>(items.isActive && <img key={index} className='w-80 absolute -translate-x-1/2 -translate-y-1/2 rounded-2xl' style={{top:items.top, left:items.left}} src={items.url} alt="" />
             ))
